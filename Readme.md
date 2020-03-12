@@ -19,3 +19,9 @@
   ```
   修改所有文件夹下面的权限，就可以了～   （另外，监控摄像头打channel和MindStudio的网址虽然重复，但是端口号不同，不会冲突）
   
+### 2.安装MindStudio
+  ### 2.1 执行sh ./install.sh 之后报错
+  ```shell
+  sudo update-alternatives --remove python /usr/bin/python3
+  ```
+  删除python3 的候选项即可
